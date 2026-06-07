@@ -191,11 +191,16 @@ img {
 }
 
 .hero h1 {
-  max-width: 760px;
+  max-width: 1120px;
   margin: 0;
-  font-size: clamp(2.45rem, 7vw, 5.6rem);
+  font-size: clamp(2.25rem, 3.6vw, 3.4rem);
   line-height: 1.02;
   letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.nowrap-name {
+  white-space: nowrap;
 }
 
 .hero-lead {
@@ -246,7 +251,7 @@ img {
 }
 
 .profile,
-.outcomes,
+.personal-goals,
 .projects,
 .summary,
 .contact {
@@ -263,7 +268,7 @@ img {
 .profile-card,
 .next-card,
 .project-card,
-.skill-card {
+.goal-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--panel);
@@ -274,18 +279,14 @@ img {
   padding: 28px;
 }
 
-.avatar-placeholder {
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-  border: 1px dashed rgba(8, 98, 99, 0.35);
+.avatar-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 34%;
   border-radius: var(--radius);
-  color: var(--teal-dark);
-  background:
-    radial-gradient(circle at 30% 24%, rgba(237, 116, 95, 0.2), transparent 30%),
-    radial-gradient(circle at 72% 70%, rgba(15, 143, 140, 0.18), transparent 28%),
-    #f5fbf8;
-  font-weight: 800;
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 38px rgba(20, 36, 46, 0.16);
 }
 
 .profile-card h2 {
@@ -365,7 +366,7 @@ dd {
   color: #314150;
 }
 
-.outcomes {
+.personal-goals {
   background: #eef7f3;
 }
 
@@ -373,17 +374,17 @@ dd {
   margin-bottom: 34px;
 }
 
-.skill-grid,
+.goal-grid,
 .project-grid {
   display: grid;
   gap: 18px;
 }
 
-.skill-grid {
-  grid-template-columns: repeat(4, 1fr);
+.goal-grid {
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.skill-card {
+.goal-card {
   padding: 24px;
   box-shadow: none;
 }
@@ -399,7 +400,7 @@ dd {
   font-weight: 800;
 }
 
-.skill-card h3,
+.goal-card h3,
 .project-card h3,
 .timeline h3,
 .next-card h3 {
@@ -407,7 +408,7 @@ dd {
   line-height: 1.25;
 }
 
-.skill-card p,
+.goal-card p,
 .project-card p,
 .project-card li,
 .timeline p,
@@ -803,7 +804,7 @@ th {
     grid-template-columns: 1fr;
   }
 
-  .skill-grid,
+  .goal-grid,
   .project-grid,
   .prompt-grid,
   .ai-process {
@@ -828,20 +829,25 @@ th {
     padding: 86px 0 96px;
   }
 
+  .hero h1 {
+    font-size: clamp(2rem, 8vw, 2.65rem);
+    white-space: normal;
+  }
+
   .hero-overlay {
     background:
       linear-gradient(180deg, rgba(251, 250, 247, 0.95) 0%, rgba(251, 250, 247, 0.86) 58%, rgba(251, 250, 247, 0.72) 100%);
   }
 
   .profile,
-  .outcomes,
+  .personal-goals,
   .projects,
   .summary,
   .contact {
     padding: 64px 0;
   }
 
-  .skill-grid,
+  .goal-grid,
   .project-grid,
   .proof-grid,
   .prompt-grid,

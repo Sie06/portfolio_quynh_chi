@@ -19,7 +19,7 @@ Website hiện có các phần chính:
 
 - Trang Giới thiệu: giới thiệu thông tin cá nhân, mục tiêu học tập và mục tiêu của Portfolio.
 - Trang Dự án: trình bày sáu nhiệm vụ của học phần kèm bài làm tóm tắt và minh chứng.
-- Phần Kỹ năng: tóm tắt các năng lực số được rèn luyện.
+- Mục tiêu của bản thân: trình bày mục tiêu học tập và định hướng nghề nghiệp.
 - Trang Tổng kết: ghi lại trải nghiệm, kiến thức nổi bật và kế hoạch bổ sung nội dung.
 - Phần Liên hệ: cung cấp email để trao đổi hoặc cập nhật thêm.
 
@@ -64,11 +64,12 @@ Website cũng có thể triển khai lên GitHub Pages hoặc Netlify vì toàn 
 │   ├── bai-5
 │   └── bai-6
 └── assets
-    └── hero-portfolio-ai.png
+    ├── hero-portfolio-ai.png
+    └── anh-ca-nhan-quynh-chi.jpeg
 ```
 
 ## Ghi chú cập nhật
 
-- Ảnh cá nhân hiện đang để dạng khung chờ vì chưa có ảnh chính thức.
+- Ảnh cá nhân đã được thêm vào phần giới thiệu.
 - Các nhiệm vụ đã có phần minh chứng cơ bản trên website.
 - Khi bổ sung nội dung mới, nên giữ toàn bộ nội dung hiển thị bằng tiếng Việt.
