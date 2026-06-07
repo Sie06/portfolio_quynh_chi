@@ -18,7 +18,7 @@ Website Portfolio tĩnh cho môn **Nhập môn Công nghệ số và Ứng dụn
 Website hiện có các phần chính:
 
 - Trang Giới thiệu: giới thiệu thông tin cá nhân, mục tiêu học tập và mục tiêu của Portfolio.
-- Trang Dự án: trình bày khái quát sáu nhiệm vụ của học phần.
+- Trang Dự án: trình bày sáu nhiệm vụ của học phần kèm bài làm tóm tắt và minh chứng.
 - Phần Kỹ năng: tóm tắt các năng lực số được rèn luyện.
 - Trang Tổng kết: ghi lại trải nghiệm, kiến thức nổi bật và kế hoạch bổ sung nội dung.
 - Phần Liên hệ: cung cấp email để trao đổi hoặc cập nhật thêm.
@@ -32,7 +32,7 @@ Website hiện có các phần chính:
 - Bài 5: Sáng tạo nội dung số.
 - Bài 6: An toàn và liêm chính học thuật trong môi trường số.
 
-Nội dung từng nhiệm vụ đang được viết ở mức khái quát. Khi có đề bài chi tiết, có thể bổ sung mục tiêu, quá trình thực hiện, hình ảnh minh chứng, file PDF, liên kết video hoặc sản phẩm cuối cùng.
+Nội dung từng nhiệm vụ đã được cập nhật theo đề bài chi tiết. Website hiện có bài làm tóm tắt, bảng nguồn, bảng Prompt, nhật ký hợp tác, quy trình dùng AI tạo sinh và infographic sử dụng AI có trách nhiệm. Khi có ảnh chụp màn hình thật hoặc file PDF chính thức, có thể bổ sung thêm vào thư mục `minh-chung`.
 
 ## Công nghệ sử dụng
 
@@ -56,6 +56,13 @@ Website cũng có thể triển khai lên GitHub Pages hoặc Netlify vì toàn 
 ├── styles.css
 ├── script.js
 ├── README.md
+├── minh-chung
+│   ├── bai-1
+│   ├── bai-2
+│   ├── bai-3
+│   ├── bai-4
+│   ├── bai-5
+│   └── bai-6
 └── assets
     └── hero-portfolio-ai.png
 ```
@@ -63,8 +70,5 @@ Website cũng có thể triển khai lên GitHub Pages hoặc Netlify vì toàn 
 ## Ghi chú cập nhật
 
 - Ảnh cá nhân hiện đang để dạng khung chờ vì chưa có ảnh chính thức.
-- Các liên kết chi tiết nhiệm vụ đang để trạng thái chờ cập nhật.
+- Các nhiệm vụ đã có phần minh chứng cơ bản trên website.
 - Khi bổ sung nội dung mới, nên giữ toàn bộ nội dung hiển thị bằng tiếng Việt.
-# portfolio_quynh_chi
-# portfolio_quynh_chi
-# portfolio_quynh_chi

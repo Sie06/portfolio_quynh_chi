@@ -1,0 +1,28 @@
+NHAT KY MINH CHUNG BAI 1
+Sinh vien: Do Thi Quynh Chi
+MSSV: 25023181
+
+Muc tieu:
+Ren luyen thao tac tao, doi ten, sao chep, di chuyen, xoa tep tin va thu muc.
+
+Moi truong thuc hien:
+macOS/Linux tuong duong voi File Explorer tren Windows.
+
+Trinh tu thao tac:
+1. Tao thu muc ThucHanh_DoThiQuynhChi.
+2. Tao tep GhiChu.txt.
+3. Doi ten GhiChu.txt thanh GhiChuQuanTrong.txt.
+4. Tao thu muc con TaiLieu.
+5. Sao chep GhiChuQuanTrong.txt vao TaiLieu.
+6. Tao tep DiChuyen.txt.
+7. Di chuyen DiChuyen.txt vao TaiLieu.
+8. Mo phong thao tac Delete bang cach chuyen GhiChuQuanTrong.txt vao ThungRac_MoPhong.
+9. Xoa vinh vien DiChuyen.txt.
+
+Cau truc minh chung cuoi:
+minh-chung/bai-1
+|-- ThucHanh_DoThiQuynhChi
+|   |-- GhiChuQuanTrong.txt
+|   `-- TaiLieu
+`-- ThungRac_MoPhong
+    `-- GhiChuQuanTrong.txt
