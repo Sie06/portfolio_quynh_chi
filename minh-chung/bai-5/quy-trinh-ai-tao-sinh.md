@@ -5,13 +5,13 @@
 ## Công cụ AI sử dụng
 
 - ChatGPT: hỗ trợ lên dàn ý và viết nội dung ngắn.
-- DALL-E: gợi ý hình ảnh minh họa.
+- Gemini: gợi ý hình ảnh minh họa.
 - Canva AI: gợi ý bố cục thiết kế.
 
 ## Prompt tiêu biểu
 
 - ChatGPT: "Lập dàn ý infographic về lộ trình data analyst cho sinh viên Hệ thống thông tin."
-- DALL-E: "Tạo hình minh họa sinh viên phân tích biểu đồ dữ liệu, phong cách hiện đại, không chữ."
+- Gemini: "Tạo hình minh họa sinh viên phân tích biểu đồ dữ liệu, phong cách hiện đại, không chữ."
 - Canva AI: "Thiết kế bố cục infographic 5 bước, màu sáng, dễ đọc, phù hợp sinh viên."
 
 ## Cách chỉnh sửa cá nhân

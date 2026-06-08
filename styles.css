@@ -251,7 +251,6 @@ img {
 }
 
 .profile,
-.personal-goals,
 .projects,
 .summary,
 .contact {
@@ -322,7 +321,9 @@ dd {
 .profile-copy h2,
 .section-heading h2,
 .summary-copy h2,
-.contact h2 {
+.contact h2,
+.portfolio-goal h2,
+.personal-goals-inline h2 {
   margin: 0;
   font-size: clamp(2rem, 4vw, 3.25rem);
   line-height: 1.12;
@@ -332,7 +333,9 @@ dd {
 .profile-copy p,
 .section-heading p,
 .summary-copy > p,
-.contact p {
+.contact p,
+.portfolio-goal p,
+.personal-goals-inline p {
   max-width: 780px;
   color: var(--muted);
 }
@@ -366,8 +369,14 @@ dd {
   color: #314150;
 }
 
-.personal-goals {
-  background: #eef7f3;
+.portfolio-goal,
+.personal-goals-inline {
+  margin-top: 42px;
+}
+
+.portfolio-goal {
+  padding-top: 36px;
+  border-top: 1px solid var(--line);
 }
 
 .section-heading {
@@ -382,6 +391,7 @@ dd {
 
 .goal-grid {
   grid-template-columns: repeat(2, 1fr);
+  margin-top: 22px;
 }
 
 .goal-card {
@@ -587,6 +597,83 @@ code {
   padding: 14px 16px;
   border-left: 4px solid var(--coral);
   background: rgba(237, 116, 95, 0.08);
+}
+
+.screenshot-gallery {
+  margin-top: 26px;
+}
+
+.screenshot-gallery h4 {
+  margin-bottom: 14px;
+}
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.screenshot-grid figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.screenshot-grid a {
+  display: block;
+  background: #f4f6f7;
+}
+
+.screenshot-grid img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: left top;
+  transition: transform 180ms ease;
+}
+
+.screenshot-grid a:hover img {
+  transform: scale(1.03);
+}
+
+.ai-proof-grid img {
+  aspect-ratio: 4 / 3;
+  object-position: center top;
+}
+
+.screenshot-grid figcaption {
+  padding: 10px 12px 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.wide-evidence-shot {
+  margin: 22px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.wide-evidence-shot a {
+  display: block;
+  background: #f4f6f7;
+}
+
+.wide-evidence-shot img {
+  width: 100%;
+  max-height: 720px;
+  object-fit: contain;
+  background: #fff;
+}
+
+.wide-evidence-shot figcaption {
+  padding: 14px 16px;
+  color: var(--muted);
+  font-weight: 700;
 }
 
 .table-wrap {
@@ -806,6 +893,7 @@ th {
 
   .goal-grid,
   .project-grid,
+  .screenshot-grid,
   .prompt-grid,
   .ai-process {
     grid-template-columns: repeat(2, 1fr);
@@ -840,7 +928,6 @@ th {
   }
 
   .profile,
-  .personal-goals,
   .projects,
   .summary,
   .contact {
@@ -850,6 +937,7 @@ th {
   .goal-grid,
   .project-grid,
   .proof-grid,
+  .screenshot-grid,
   .prompt-grid,
   .ai-process,
   .principle-grid,
