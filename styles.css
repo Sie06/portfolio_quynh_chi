@@ -210,8 +210,7 @@ img {
   font-size: 1.14rem;
 }
 
-.hero-actions,
-.contact-panel {
+.hero-actions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -252,8 +251,7 @@ img {
 
 .profile,
 .projects,
-.summary,
-.contact {
+.summary {
   padding: 92px 0;
 }
 
@@ -265,7 +263,6 @@ img {
 }
 
 .profile-card,
-.next-card,
 .project-card,
 .goal-card {
   border: 1px solid var(--line);
@@ -321,7 +318,6 @@ dd {
 .profile-copy h2,
 .section-heading h2,
 .summary-copy h2,
-.contact h2,
 .portfolio-goal h2,
 .personal-goals-inline h2 {
   margin: 0;
@@ -333,7 +329,6 @@ dd {
 .profile-copy p,
 .section-heading p,
 .summary-copy > p,
-.contact p,
 .portfolio-goal p,
 .personal-goals-inline p {
   max-width: 780px;
@@ -412,8 +407,7 @@ dd {
 
 .goal-card h3,
 .project-card h3,
-.timeline h3,
-.next-card h3 {
+.timeline h3 {
   margin: 18px 0 8px;
   line-height: 1.25;
 }
@@ -421,8 +415,7 @@ dd {
 .goal-card p,
 .project-card p,
 .project-card li,
-.timeline p,
-.next-card li {
+.timeline p {
   color: var(--muted);
 }
 
@@ -771,16 +764,13 @@ th {
 
 .summary .section-kicker,
 .summary-copy > p,
-.timeline p,
-.next-card li {
+.timeline p {
   color: rgba(255, 255, 255, 0.74);
 }
 
 .summary-grid {
-  display: grid;
-  grid-template-columns: 1fr 360px;
-  gap: 42px;
-  align-items: start;
+  max-width: 920px;
+  margin: 0 auto;
 }
 
 .timeline {
@@ -807,28 +797,6 @@ th {
 .timeline h3,
 .timeline p {
   margin: 0;
-}
-
-.next-card {
-  padding: 26px;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.16);
-  box-shadow: none;
-}
-
-.next-card ol {
-  padding-left: 20px;
-  margin: 12px 0 0;
-}
-
-.contact-panel {
-  justify-content: space-between;
-  padding: 34px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: #fff;
-  box-shadow: var(--shadow);
 }
 
 .site-footer {
@@ -929,8 +897,7 @@ th {
 
   .profile,
   .projects,
-  .summary,
-  .contact {
+  .summary {
     padding: 64px 0;
   }
 
@@ -945,7 +912,6 @@ th {
     grid-template-columns: 1fr;
   }
 
-  .contact-panel,
   .site-footer {
     align-items: flex-start;
     flex-direction: column;
