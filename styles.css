@@ -545,7 +545,6 @@ dd {
   margin: 0;
 }
 
-.proof-grid,
 .prompt-grid,
 .ai-process,
 .principle-grid {
@@ -553,11 +552,6 @@ dd {
   gap: 16px;
 }
 
-.proof-grid {
-  grid-template-columns: 1fr 1fr;
-}
-
-.terminal-proof,
 .prompt-card,
 .ai-process div,
 .principle-grid div,
@@ -567,7 +561,6 @@ dd {
   background: #f8fbfa;
 }
 
-.terminal-proof,
 .prompt-card,
 .ai-process div {
   padding: 18px;
@@ -584,12 +577,6 @@ pre {
 
 code {
   font-family: "SFMono-Regular", Consolas, monospace;
-}
-
-.submission-note {
-  padding: 14px 16px;
-  border-left: 4px solid var(--coral);
-  background: rgba(237, 116, 95, 0.08);
 }
 
 .screenshot-gallery {
@@ -903,7 +890,6 @@ th {
 
   .goal-grid,
   .project-grid,
-  .proof-grid,
   .screenshot-grid,
   .prompt-grid,
   .ai-process,

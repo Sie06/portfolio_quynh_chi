@@ -20,7 +20,7 @@ Website hiện có các phần chính:
 - Trang Giới thiệu: giới thiệu thông tin cá nhân, mục tiêu học tập và mục tiêu của Portfolio.
 - Trang Dự án: trình bày sáu nhiệm vụ của học phần kèm bài làm tóm tắt và minh chứng.
 - Trang Giới thiệu: có thông tin cá nhân, sở thích, mục tiêu của Portfolio và mục tiêu của bản thân.
-- Trang Tổng kết: ghi lại trải nghiệm, kiến thức nổi bật và điểm tâm đắc khi xây dựng infographic.
+- Trang Tổng kết: ghi lại trải nghiệm, kiến thức nổi bật, điểm tâm đắc và thách thức khi xây dựng Portfolio.
 
 ## Sáu nhiệm vụ học tập
 
